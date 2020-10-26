@@ -1,7 +1,7 @@
 # GameVideo以及APK资源：
 
-链接：https://pan.baidu.com/s/16Z2tH53ySRrOdGUAM_-Szw 
-提取码：raeu 
+链接：https://pan.baidu.com/s/1W4X3htIChIBeHjgDa5QTSw 
+提取码：zx18 
 
 
 
