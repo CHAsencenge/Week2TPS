@@ -1,11 +1,18 @@
-# GameVideo以及APK资源：
+# Week2GameVideo以及APK资源：
 
 链接：https://pan.baidu.com/s/1W4X3htIChIBeHjgDa5QTSw 
 提取码：zx18 
 
 
 
-# 实现功能：
+# Week4GameVideo以及APK资源：
+
+链接：https://pan.baidu.com/s/1yMLxooQ-eHIpVdlbkfy85A 
+提取码：7oii 
+
+
+
+# Week2 实现功能：
 
 ### 实现打靶功能
 
@@ -19,7 +26,7 @@
 
 
 
-# Content说明
+# Week2 Content说明
 
 #### 子弹蓝图：Content/BluePrints/Bullet.uasset
 
@@ -34,3 +41,15 @@
 #### 枪械：Content/ThirdPersonCPP/Blueprints/White_SniperRifleuasset
 
 #### 用于人物持枪瞄准各个方向的混合空间及其对应帧：Content/AnimStarterPack/AnimaOffset.uasset
+
+
+
+# Week4 实现功能：
+
+### 利用UMG完成人物血条绑定
+
+### 添加加血包和减血包，使人物跑到加血包位置增加20点血量，跑到减血包位置减少30点血量
+
+### 利用UMG实现将由吃到加血包或者减血包导致的血量值的变化体现到人物血条和左下方的Health值显示
+
+### 利用UMG实现三个按钮事件，分别是跳跃、单发子弹发射、连发子弹发射
