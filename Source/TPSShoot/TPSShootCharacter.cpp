@@ -47,8 +47,25 @@ ATPSShootCharacter::ATPSShootCharacter()
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
 
-//////////////////////////////////////////////////////////////////////////
-// Input
+
+void ATPSShootCharacter::AddBullet()
+{
+	if (ReloadButtonDown)
+	{
+		BulletNum += 5;
+	}	
+	else
+	{
+		GetWorldTimerManager().ClearTimer(ReloadDownTimerHandle);
+	}
+}
+
+// Reload按钮按下期间持续装弹
+void ATPSShootCharacter::AddBulletByReloading()
+{
+	
+	GetWorldTimerManager().SetTimer(ReloadDownTimerHandle, this, &ATPSShootCharacter::AddBullet, 1.0f, true);
+}
 
 void ATPSShootCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {

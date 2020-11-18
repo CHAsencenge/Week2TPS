@@ -29,6 +29,26 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
+	float Health = 100.0;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
+	int32 BulletNum = 30;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
+	bool ReloadButtonDown = false;
+
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
+	bool FreeViewButtonDown = false;
+
+	UFUNCTION(BlueprintCallable)
+	void AddBullet();
+
+	UFUNCTION(BlueprintCallable)
+	void AddBulletByReloading();
+
+	FTimerHandle ReloadDownTimerHandle;
+
 protected:
 
 	///** Resets HMD orientation in VR. */
@@ -68,5 +88,5 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-};
 
+};
