@@ -1,26 +1,33 @@
-# Week2GameVideo以及APK资源：
+# Week2GameVideo以及APK资源（游戏模式）：
 
 链接：https://pan.baidu.com/s/1W4X3htIChIBeHjgDa5QTSw 
 提取码：zx18 
 
 
 
-# Week4GameVideo以及APK资源：
+# Week4GameVideo以及APK资源（UMG界面）：
 
 链接：https://pan.baidu.com/s/1yMLxooQ-eHIpVdlbkfy85A 
 提取码：7oii 
 
 
 
-# Week5&Week6GameVideo以及APK资源：
+# Week5&Week6GameVideo以及APK资源（骨骼动画）：
 
 链接：https://pan.baidu.com/s/1fyzLX6t6M38kH5KHQ5KB8w 
 提取码：zu2k 
 
 
 
+# Week7GameVideo以及APK资源（基本物理）：
 
-# Week2 实现功能：
+链接：https://pan.baidu.com/s/1RcGQeFEBD1dkdRS6iNEd3w 
+提取码：va9u 
+
+
+
+
+# Week2 （游戏模式）实现功能：
 
 ### 实现打靶功能
 
@@ -52,7 +59,7 @@
 
 
 
-# Week4 实现功能：
+# Week4 （UMG界面）实现功能：
 
 ### **计分显示：**打靶计分显示在左上角
 
@@ -66,7 +73,7 @@
 
 
 
-# Week5 & Week6 实现功能：
+# Week5 & Week6 （骨骼动画）实现功能：
 
 ### **实现基础的移动功能：**主角的动画蓝图能够实现基础的移动功能，包括站立，跑，跳跃的动作表现
 
@@ -84,7 +91,7 @@
 
 
 
-# Week7 实现功能：
+# Week7 （基本物理）实现功能：
 
 ### **实现枪械的基本pick功能（PC端为R键，移动端为按钮4）：**当人物所持枪支对向地上的枪支且距离足够接近时，可进行枪械的pick，当前的枪械会置换到地面，然后将地面的枪械换到人物手中。
 
